@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" id="viewport" content="width=768, user-scalable=no, minimal-ui, target-densitydpi=device-dpi" />
+    <link rel="icon" href="./images/icon/favicon.ico" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/reset.min.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <link rel="stylesheet" href="./css/pageable.min.css" />
+    <script defer src="./js/pageable.js"></script>
+    <script defer src="./js/type-hangul.bundle.js"></script>
+    <script defer src="./js/swiper-bundle.min.js"></script>
+    <script defer src="./js/main.js"></script>
+    <title>신도림 | 피도 안마른 녀석들</title>
+  </head>
+
+  <body>
+    <header id="header" class="header">
+      <div class="pc">
+        <!-- <div class="header_gnb on"> -->
+        <div class="header_gnb off">
+          <div class="header_gnb_btnMenu">
+            <!-- <button type="button" class="btnMenu on"> -->
+            <button type="button" class="btnMenu">
+              <div class="bar-wrap">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </button>
+          </div>
+          <div class="header_gnb_logo header_gnb_list">
+            <a class="link myLink" href="#main">
+              <img src="./images/common/sindorim_logo_ci-w.svg" alt="신도림: 피도 안마른 녀석들" class="logoImg" />
+            </a>
+          </div>
+          <!-- <ul class="header_gnb_list-wrap on"> -->
+          <ul class="header_gnb_list-wrap">
+            <!-- <li class="header_gnb_list active"> -->
+            <!-- <li class="header_gnb_list">
+              <a class="link myLink" href="#main">HOME</a>
+            </li> -->
+            <li class="header_gnb_list">
+              <a class="link myLink" href="#reservation">사전등록</a>
+            </li>
+            <li class="header_gnb_list sr-only">
+              <a class="link myLink" href="#reservationsub">사전등록</a>
+            </li>
+            <li class="header_gnb_list">
+              <a class="link myLink" href="#intro">WORLD VIEW</a>
+            </li>
+            <li class="header_gnb_list sr-only">
+              <a class="link myLink" href="#introsub">introsub</a>
+            </li>
+            <li class="header_gnb_list">
+              <a class="link myLink" href="#character">CHARACTER</a>
+            </li>
+            <li class="header_gnb_list">
+              <a class="link myLink" href="#media">MEDIA</a>
+            </li>
+            <li class="header_gnb_list">
+              <a class="link myLink" href="#community">COMMUNITY</a>
+            </li>
+          </ul>
+          <div class="header_gnb_copy">
+            <img class="img" src="./images/common/metacube_logo.svg" alt="METACUBE" />
+            <p class="copy">&copy; Copyrights 2021. METACUBE<br />All right reserved</p>
+          </div>
+        </div>
+        <!-- <div class="header_logo on"> -->
+        <div class="header_logo">
+          <a lass="link myLink" href="#main">
+            <img src="./images/common/sindorim_logo_ci-w.svg" alt="신도림, 피도안마른녀석들" class="logoImg" />
+          </a>
+        </div>
+        <div class="header_sns">
+          <ul class="list-wrap">
+            <li class="list">
+              <a href="https://cafe.naver.com/sindorimgames" class="btn_sns ico_cafe">
+                <span class="sr-only">신도림 네이버 카페 바로가기</span>
+              </a>
+            </li>
+            <!-- <li class="list">
+              <a href="javascript:void(0)" class="btn_sns ico_youtube">
+                <span class="sr-only">신도림 유튜브 카페 바로가기</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="javascript:void(0)" class="btn_sns ico_fb">
+                <span class="sr-only">신도림 페이스북 카페 바로가기</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="javascript:void(0)" class="btn_sns ico_insta">
+                <span class="sr-only">신도림 인스타그램 카페 바로가기</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="javascript:void(0)" class="btn_sns ico_twitter">
+                <span class="sr-only">신도림 트위터 카페 바로가기</span>
+              </a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+      <div class="mo">
+        <div class="header_gnb">
+          <div class="header_gnb_logo">
+            <a class="link myLink" href="#main">
+              <img src="./images/common/header_mobile_logo.png" alt="신도림: 피도 안마른 녀석들" />
+            </a>
+          </div>
+          <div class="header_gnb_sns">
+            <ul class="list-wrap">
+              <li class="list">
+                <a href="https://cafe.naver.com/sindorimgames" class="btn_sns ico_cafe">
+                  <span class="sr-only">신도림 네이버 카페 바로가기</span>
+                </a>
+              </li>
+              <!-- <li class="list">
+                <a href="javascript:void(0)" class="btn_sns ico_youtube">
+                  <span class="sr-only">신도림 유튜브 카페 바로가기</span>
+                </a>
+              </li>
+              <li class="list">
+                <a href="javascript:void(0)" class="btn_sns ico_fb">
+                  <span class="sr-only">신도림 페이스북 카페 바로가기</span>
+                </a>
+              </li>
+              <li class="list">
+                <a href="javascript:void(0)" class="btn_sns ico_insta">
+                  <span class="sr-only">신도림 인스타그램 카페 바로가기</span>
+                </a>
+              </li>
+              <li class="list">
+                <a href="javascript:void(0)" class="btn_sns ico_twitter">
+                  <span class="sr-only">신도림 트위터 카페 바로가기</span>
+                </a>
+              </li> -->
+            </ul>
+          </div>
+          <div class="header_gnb_content off">
+            <button type="button" class="btnMenu">
+              <div class="bar-wrap">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </button>
+            <div class="logo list">
+              <a class="link myLink" href="#main">
+                <img class="img1" src="./images/main/main_main_textimage1-mo.png" alt="신도림" />
+                <img class="img2" src="./images/main/main_main_textimage2-mo.png" alt="피도안마른녀석들" />
+              </a>
+            </div>
+            <ul class="list-wrap">
+              <!-- <li class="list">
+                <a class="link myLink" href="#main">HOME</a>
+              </li> -->
+              <li class="list">
+                <a class="link myLink" href="#reservation">사전등록</a>
+              </li>
+              <li class="list sr-only">
+                <a class="link myLink" href="reservationsub">reservationsub</a>
+              </li>
+              <li class="list">
+                <a class="link myLink" href="#intro">WORLD VIEW</a>
+              </li>
+              <li class="list sr-only">
+                <a class="link myLink" href="#introsub">introsub</a>
+              </li>
+              <li class="list">
+                <a class="link myLink" href="#character">CHARACTER</a>
+              </li>
+              <li class="list">
+                <a class="link myLink" href="#media">MEDIA</a>
+              </li>
+              <li class="list">
+                <a class="link myLink" href="#community">COMMUNITY</a>
+              </li>
+            </ul>
+            <div class="copy-wrap">
+              <img class="img" src="./images/common/common_footer_logo.png" alt="METACUBE" />
+              <p class="copy">&copy; Copyrights 2021. METACUBE<br />All right reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="container" class="container fullpage-wrapper">
+      <section id="main" class="section main" data-anchor="main">
+        <div class="pc">
+          <div class="main_logo">
+            <img class="main_logo_img1" src="./images/main/main_main_textimage1.png" alt="신도림" />
+            <div class="main_logo_img2">
+              <img src="./images/main/main_main_textimage2.png" alt="피도안마른녀석들" />
+            </div>
+          </div>
+          <div class="main_buttons-area">
+            <div class="main_buttons-area_section">
+              <a href="#reservation">
+                <button class="main-button1"></button>
+              </a>
+              <img src="./images/icon/btn_reservation_shadow.png" />
+            </div>
+            <div class="main_buttons-area_section">
+              <button class="main-button2"></button>
+              <button class="main-button3"></button>
+            </div>
+          </div>
+          <div class="main_character">
+            <img class="main_character_img1" src="./images/main/main_main_character1.png" alt="캐릭터 이미지" />
+            <img class="main_character_img2" src="./images/main/main_main_character2.png" alt="캐릭터 이미지" />
+            <img class="main_character_img3" src="./images/main/main_main_character3.png" alt="캐릭터 이미지" />
+            <img class="main_character_img4" src="./images/main/main_main_character4.png" alt="캐릭터 이미지" />
+            <img class="main_character_img5" src="./images/main/main_main_character6.png" alt="캐릭터 이미지" />
+            <img class="main_character_img6" src="./images/main/main_main_character5.png" alt="캐릭터 이미지" />
+          </div>
+        </div>
+        <div class="mo">
+          <div class="main_logo">
+            <img class="main_logo_img1" src="./images/main/main_main_textimage1-mo.png" alt="신도림" />
+            <div class="main_logo_img2">
+              <img src="./images/main/main_main_textimage2-mo.png" alt=" 피도안마른녀석들" />
+            </div>
+          </div>
+          <div class="main_character">
+            <img class="main_character_img1" src="./images/main/main_main_character1.png" alt="캐릭터 이미지" />
+            <img class="main_character_img2" src="./images/main/main_character_img8.png" alt="캐릭터 이미지" />
+          </div>
+          <div class="main_buttons-area">
+            <div class="main_buttons-area_section">
+              <a href="#reservation">
+                <button class="main-button1"></button>
+              </a>
+            </div>
+            <div class="main_buttons-area_section">
+              <button class="main-button2"></button>
+              <button class="main-button3"></button>
+            </div>
+          </div>
+        </div>
+        <div class="scroll">
+          <a class="scroll_link myLink" href="#reservation">
+            <span class="sr-only">다음페이지로 가기</span>
+          </a>
+        </div>
+      </section>
+      <section id="reservation" class="section reservation" data-anchor="reservation">
+        <!-- 개인정보수집모달 -->
+        <div class="reservation_modal">
+          <div class="modal">
+            <p class="modal_title">개인정보 수집 및 이용 동의</p>
+            <p class="modal_text">
+              메타큐브는 게임 및 이벤트 전송을 위해 개인정보를 수집 및 이용하고 있습니다.<br />
+              귀하는 개인 정보 수집 이용에 동의하지 않을 수 있으며, 동의 거부 시 이벤트에 참여가 불가합니다.<br />
+              <br />
+              - 개인정보수집 및 이용목적 : 사전등록 및 관련 이벤트 참여, 이벤트 쿠폰 발송, 고객 문의 대응<br />
+              - 수집 개인정보 항목 : 휴대 전화 번호<br />
+              - 개인정보보유 및 이용기간 : 수집일로부터 1년<br />
+            </p>
+            <button class="btn-modalClose" type="button"><p class="sr-only">닫기 버튼</p></button>
+          </div>
+        </div>
+        <!-- 이벤트 프로모선 모달 -->
+        <div class="reservation_modal">
+          <div class="modal">
+            <p class="modal_title">이벤트 등 프로모션 알림 수신 동의</p>
+            <p class="modal_text">
+              메타큐브는 이벤트 경품 지급 및 게임관련 소식 안내를 위해<br />
+              다음과 같은 개인정보를 수집 및 이용하고 있습니다.<br />
+              <br />
+              1&#41; 수집 및 이용항목: 휴대폰번호, OS정보<br />
+              2&#41; 수집 및 이용목적: 게임관련 소식안내, SMS/LMS발송 및 이벤트 경품지급 등 관련제반 업무처리<br />
+              3&#41; 개인정보 보유 및 이용기간: 수집일로부터 1년<br />
+              &#40;고객지원목적으로 SMS/LMS발송이력은 6개월 보관 후 파기&#41;<br />
+              게임정보 수신에 동의를 거부할수 있습니다. <br />
+              ※ 단, 동의거부시 사전예약 및 이벤트에 참여하실수 없습니다. <br />
+              수집된 개인정보는 본 게임의 마케팅을 위해 사용되며, <br />
+              대행사 &#40;주&#41;애드포러스에서 업무를 수행하도록 개인정보를 위탁하고 있습니다.
+            </p>
+            <button class="btn-modalClose" type="button">
+              <p class="sr-only">닫기 버튼</p>
+            </button>
+          </div>
+        </div>
+        <div class="pc">
+          <div class="side-area">
+            <div class="side-area_form">
+              <h2 class="side-area_form_title">사전등록 이벤트</h2>
+              <p class="side-area_form_sub-title">
+                '신도림 : 피도 안마른 녀석들 액션RPG' <br />
+                사전 등록하고 푸짐한 보상 놓치지마세요!
+              </p>
+              <form>
+                <div class="formWrap">
+                  <input type="radio" name="radioMobile" id="radioAndroidMobile" class="radioInput sr-only" value="aos" checked />
+                  <label for="radioAndroidMobile" class="radioLabel"> Android </label>
+
+                  <input type="radio" name="radioMobile" id="radioiOSMobile" class="radioInput sr-only" value="ios" />
+                  <label for="radioiOSMobile" class="radioLabel"> iOS </label> <br />
+                </div>
+
+                <div class="tel-input-img">
+                  <label for="userTel" class="tel-input_label sr-only"> ' - ' 를 제외한 휴대폰 번호를 입력해 주세요.</label>
+                  <input class="tel-input" type="text" id="userTel" maxlength="8" />
+                </div>
+
+                <span class="tel-input_text"> ' - ' 를 제외한 휴대폰 번호를 입력해 주세요. </span><br />
+
+                <input type="checkbox" id="checkboxAll" name="checkboxAll" class="checkboxInput sr-only" />
+                <label for="checkboxAll" class="checkboxLabel bold">아래 내용을 확인하였으며, 모두 동의합니다.</label>
+                <br />
+
+                <input type="checkbox" id="checkPersonal" name="checkPersonal" class="checkboxInput sr-only" />
+                <label for="checkPersonal" class="checkboxLabel"> 개인정보 수집 및 이용동의 </label>
+                <button class="side-area_form_btn" type="button">자세히보기</button><br />
+
+                <input type="checkbox" id="checkEvent" name="checkEvent" class="checkboxInput sr-only" />
+                <label for="checkEvent" class="checkboxLabel">이벤트 등 프로모션 알림 수신동의 </label>
+
+                <button class="side-area_form_btn" type="button">자세히보기</button><br />
+              </form>
+              <a id="goReservation" class="side-area_form_btn-reservation" onclick="onCreate('pc')">
+                <em class="sr-only">사전등록하기</em>
+              </a>
+            </div>
+            <img class="side-area_image" src="./images/main/main_main_character1.png" alt="천둥 이미지" />
+            <img class="side-area_image" src="./images/main/main_main_character3.png" alt="럭키 이미지" />
+          </div>
+        </div>
+        <div class="mo">
+          <div class="side-area">
+            <div class="eventWrap">
+              <h2 class="side-area_title">사전등록 이벤트</h2>
+              <p class="side-area_sub-title">'신도림 : 피도 안마른 녀석들 액션RPG' <br />사전 등록하고 푸짐함 보상 놓치지마세요!</p>
+              <form action="" method="post">
+                <div class="radio-Input-box">
+                  <input type="radio" name="mo_radioMobile" id="radioAndroidMo" class="radioInput sr-only" value="aos" checked />
+                  <label for="radioAndroidMo" class="radioLabel"> Android </label>
+                  <input type="radio" name="mo_radioMobile" id="radioiOSMo" class="radioInput sr-only" value="ios" />
+                  <label for="radioiOSMo" class="radioLabel"> iOS </label>
+                </div>
+
+                <div class="tel-input-img">
+                  <label for="userMobileTel" class="tel-input_label"></label>
+                  <input class="tel-input" type="text" id="userMobileTel" name="reservation" maxlength="8" />
+                </div>
+
+                <span class="tel-input_text"> ' - ' 를 제외한 휴대폰 번호를 입력해 주세요. </span><br />
+
+                <div class="checkbox-Input-box">
+                  <input type="checkbox" name="reservation" id="checkboxAllMo" class="checkboxInput sr-only bold" />
+                  <label for="checkboxAllMo" class="checkboxLabel bold">아래 내용을 확인하였으며, 모두 동의합니다.</label>
+                  <br />
+                  <input type="checkbox" name="reservation" id="checkPersonalMo" class="checkboxInput sr-only" />
+                  <label for="checkPersonalMo" class="checkboxLabel text"> 개인정보 수집 및 이용동의 </label>
+                  <button class="side-area_form_btn" type="button">자세히보기</button><br />
+                  <input type="checkbox" name="reservation" id="checkEventMo" class="checkboxInput sr-only" />
+                  <label for="checkEventMo" class="checkboxLabel text"> 이벤트 등 프로모션 알림 수신동의 </label>
+                  <button class="side-area_form_btn" type="button">자세히보기</button>
+                </div>
+              </form>
+              <a id="goReservation2" class="btn-reservation" onclick="onCreate('mo')">
+                <em class="sr-only">사전등록하기</em>
+              </a>
+              <img class="img-reword" src="./images/main/reword.png" alt="보상이미지" />
+            </div>
+          </div>
+        </div>
+        <div class="scroll">
+          <a class="scroll_link myLink" href="#reservationsub">
+            <span class="sr-only">다음페이지로 가기</span>
+          </a>
+        </div>
+      </section>
+      <section id="reservationsub" class="section reservation" data-anchor="reservationsub">
+        <div class="pc">
+          <div class="box">
+            <h2 class="box_title">인원수 돌파 이벤트</h2>
+            <p class="box_sub-title">사전 등록 인원수에 따라 보상이 누적으로 지급됩니다.</p>
+            <div class="box_number">
+              <div class="box_number_section">현재 사전 등록 수 :</div>
+              <div class="box_number_section">
+                <h2 id="count" class="number-count"></h2>
+              </div>
+            </div>
+            <div class="box_level-bar">
+              <div class="box_level-bar_check1"></div>
+              <div class="box_level-bar_check2"></div>
+              <div class="box_level-bar_check3"></div>
+              <div class="box_level-bar_check4"></div>
+              <div class="box_level-bar_check5"></div>
+              <div class="box_level-bar_inner">
+                <div class="level-1">
+                  <div class="bar"></div>
+                </div>
+                <div class="level-2">
+                  <div class="bar"></div>
+                </div>
+                <div class="level-3">
+                  <div class="bar"></div>
+                </div>
+                <div class="level-4">
+                  <div class="bar"></div>
+                </div>
+                <div class="level-5">
+                  <div class="bar"></div>
+                </div>
+                <div class="level-6">
+                  <div class="bar"></div>
+                </div>
+              </div>
+            </div>
+            <div class="box_reward">
+              <div class="contents">
+                <img class="reward_img" src="./images/icon/reward_img1.png" alt="보상이미지" />
+                <img class="reward_title" src="./images/icon/reward_title1.png" alt="보상타이틀" />
+                <img class="img-complete" src="./images/icon/ico_complete.png" alt="완료" />
+                <img class="reward_contents" src="./images/icon/reward_contents1.png" alt="기술의 결정" />
+              </div>
+              <div class="contents">
+                <img class="reward_img" src="./images/icon/reward_img2.png" alt="보상이미지" />
+                <img class="reward_title" src="./images/icon/reward_title2.png" alt="보상타이틀" />
+                <img class="img-complete" src="./images/icon/ico_complete.png" alt="완료" />
+                <img class="reward_contents" src="./images/icon/reward_contents2.png" alt="1회 무료 소환권" />
+              </div>
+              <div class="contents">
+                <img class="reward_img" src="./images/icon/reward_img3.png" alt="보상이미지" />
+                <img class="reward_title" src="./images/icon/reward_title3.png" alt="보상타이틀" />
+                <img class="img-complete" src="./images/icon/ico_complete.png" alt="완료" />
+                <img class="reward_contents" src="./images/icon/reward_contents3.png" alt="SR 등급 캐릭터 럭키" />
+              </div>
+              <div class="contents">
+                <img class="reward_img" src="./images/icon/reward_img4.png" alt="보상이미지" />
+                <img class="reward_title" src="./images/icon/reward_title4.png" alt="보상타이틀" />
+                <img class="img-complete" src="./images/icon/ico_complete.png" alt="완료" />
+                <img class="reward_contents" src="./images/icon/reward_contents4.png" alt="SR 등급 불속성" />
+              </div>
+              <div class="contents">
+                <img class="reward_img" src="./images/icon/reward_img5.png" alt="보상이미지" />
+                <img class="reward_title" src="./images/icon/reward_title5.png" alt="보상타이틀" />
+                <img class="img-complete" src="./images/icon/ico_complete.png" alt="완료" />
+                <img class="reward_contents" src="./images/icon/reward_contents5.png" alt="10회 무료 소환권" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mo">
+          <div class="box">
+            <div class="eventWrap">
+              <h2 class="box_title">인원수 돌파 이벤트</h2>
+              <p class="box_sub-title">사전예약 인원수에 따라 보상이 누적으로 지급됩니다.</p>
+              <div class="box_number">
+                <div class="box_number_section">현재 사전 예약 수 :</div>
+                <div class="box_number_section">
+                  <h2 id="count" class="number-count"></h2>
+                </div>
+              </div>
+              <div class="box_reward">
+                <div class="box_reward_section">
+                  <div class="contents">
+                    <img class="reward_title" src="./images/icon/reward_title1.png" alt="보상타이틀" />
+                    <img class="reward_img" src="./images/icon/reward_img1.png" alt="보상이미지" />
+                    <img class="img-complete" src="./images/icon/ico_complete.png" alt="완료" />
+                    <img class="reward_contents" src="./images/icon/reward_contents1.png" alt="기술의 결정" />
+                  </div>
+                  <div class="contents">
+                    <img class="reward_title" src="./images/icon/reward_title2.png" alt="보상타이틀" />
+                    <img class="reward_img" src="./images/icon/reward_img2.png" alt="보상이미지" />
+                    <img class="img-complete" src="./images/icon/ico_complete.png" alt="완료" />
+                    <img class="reward_contents" src="./images/icon/reward_contents2.png" alt="1회 무료 소환권" />
+                  </div>
+                  <div class="contents">
+                    <img class="reward_title" src="./images/icon/reward_title3.png" alt="보상타이틀" />
+                    <img class="reward_img" src="./images/icon/reward_img3.png" alt="보상이미지" />
+                    <img class="img-complete" src="./images/icon/ico_complete.png" alt="완료" />
+                    <img class="reward_contents" src="./images/icon/reward_contents3.png" alt="SR 등급 캐릭터 럭키" />
+                  </div>
+                </div>
+                <div class="box_reward_section">
+                  <div class="contents">
+                    <img class="reward_title" src="./images/icon/reward_title4.png" alt="보상타이틀" />
+                    <img class="reward_img" src="./images/icon/reward_img4.png" alt="보상이미지" />
+                    <img class="img-complete" src="./images/icon/ico_complete.png" alt="완료" />
+                    <img class="reward_contents" src="./images/icon/reward_contents4.png" alt="SR 등급 불속성" />
+                  </div>
+                  <div class="contents">
+                    <img class="reward_title" src="./images/icon/reward_title5.png" alt="보상타이틀" />
+                    <img class="reward_img" src="./images/icon/reward_img5.png" alt="보상이미지" />
+                    <img class="img-complete" src="./images/icon/ico_complete.png" alt="완료" />
+                    <img class="reward_contents" src="./images/icon/reward_contents5.png" alt="10회 무료 소환권" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scroll">
+          <a class="scroll_link myLink" href="#intro">
+            <span class="sr-only">다음페이지로 가기</span>
+          </a>
+        </div>
+      </section>
+      <section id="intro" class="section intro" data-anchor="intro">
+        <div class="intro_line">
+          <div class="intro_line_img1">
+            <img class="policeList" src="./images/main/police-line1.png" alt="policeLine" />
+          </div>
+          <div class="intro_line_img2">
+            <img class="policeList" src="./images/main/police-line2.png" alt="policeLine" />
+          </div>
+          <div class="intro_line_img3">
+            <img class="policeList" src="./images/main/police-line3.png" alt="policeLine" />
+          </div>
+          <div class="intro_line_img4">
+            <img class="policeList" src="./images/main/police-line4.png" alt="policeLine" />
+          </div>
+          <div class="intro_line_img5">
+            <img class="policeList" src="./images/main/police-line5.png" alt="policeLine" />
+          </div>
+        </div>
+        <!-- <div class="intro_blood">
+          <img class="intro_blood_img1" src="./images/main/main_intro_blood1.png" alt="혈흔 이미지" />
+          <img class="intro_blood_img2" src="./images/main/main_intro_blood2.png" alt="혈흔 이미지" />
+          <img class="intro_blood_img3" src="./images/main/main_intro_blood3.png" alt="혈흔 이미지" />
+          <img class="intro_blood_img4" src="./images/main/main_intro_blood4.png" alt="혈흔 이미지" />
+          <img class="intro_blood_img5" src="./images/main/main_intro_blood5.png" alt="혈흔 이미지" />
+          <img class="intro_blood_img6" src="./images/main/main_intro_blood6.png" alt="혈흔 이미지" />
+          <img class="intro_blood_img7" src="./images/main/main_intro_blood7.png" alt="혈흔 이미지" />
+        </div> -->
+        <div class="intro_box pc">
+          <h2 id="type1" class="intro_box_title">"통제불능입니다."</h2>
+          <p class="intro_box_subText">
+            <span id="type2" class="text">세상이 무너지고 세워진 지하도시 신도림.</span><br />
+            <span id="type3" class="text">그곳에 들어가지 못하고 생존한 소년들이 지하도시의 비밀을 파헤친다!</span>
+          </p>
+        </div>
+        <div class="intro_box mo">
+          <h2 class="intro_box_title">"통제불능입니다."</h2>
+          <p class="intro_box_subText">
+            <span class="text">세상이 무너지고 세워진 지하도시 신도림.</span><br />
+            <span class="text">그곳에 들어가지 못하고 생존한 소년들이 지하도시의 비밀을 파헤친다!</span>
+          </p>
+        </div>
+        <div class="scroll">
+          <a class="scroll_link myLink" href="#introsub">
+            <span class="sr-only">다음페이지로 가기</span>
+          </a>
+        </div>
+      </section>
+      <section id="introsub" class="section introSub" data-anchor="introsub">
+        <div class="introSub_line">
+          <img class="introSub_line_img1" src="./images/main/main_introSub_line1.png" alt="policeLine" />
+          <img class="introSub_line_img2" src="./images/main/main_introSub_line2.png" alt="policeLine" />
+        </div>
+        <!-- <div class="introSub_blood">
+          <img class="introSub_blood_img1" src="./images/main/main_introSub_blood1.png" alt="혈흔 이미지" />
+          <img class="introSub_blood_img2" src="./images/main/main_introSub_blood2.png" alt="혈흔 이미지" />
+          <img class="introSub_blood_img3" src="./images/main/main_introSub_blood3.png" alt="혈흔 이미지" />
+          <img class="introSub_blood_img4" src="./images/main/main_introSub_blood4.png" alt="혈흔 이미지" />
+          <img class="introSub_blood_img5" src="./images/main/main_introSub_blood5.png" alt="혈흔 이미지" />
+          <img class="introSub_blood_img6" src="./images/main/main_introSub_blood6.png" alt="혈흔 이미지" />
+        </div> -->
+        <div class="introSub_box">
+          <span class="text">수많은 사람들의 희망은 사라졌지만</span><br />
+          <span class="text">지옥에 버려진 사람들 사이에서 나는 확신할 수 있었다.</span><br />
+          <span class="text">지하도시 신도림에 들어가지 못 한 우리는</span><br />
+          <span class="text">지옥에 남겨져 강해져야만 했다.</span><br />
+          <span class="text">by. 신도림(aka. 지옥)</span>
+        </div>
+        <div class="scroll">
+          <a class="scroll_link myLink" href="#character">
+            <span class="sr-only">다음페이지로 가기</span>
+          </a>
+        </div>
+      </section>
+      <section id="character" class="section character" data-anchor="character">
+        <div class="character_box">
+          <img class="character_box_title pc" src="./images/main/main_character_title.png" alt="지옥에서 살아남은 자를 소개한다" />
+          <img class="character_box_title mo" src="./images/main/main_character_title.png" alt="지옥에서 살아남은 자를 소개한다" />
+          <div class="character_box_content-wrap">
+            <div class="character_box_content">
+              <div class="characterImg">
+                <a href="javascript:void(0)" class="characterImg_btn">
+                  <img class="characterImg_img" src="./images/main/main_character_img1.png" alt="점보" />
+                  <p class="characterImg_name">점보</p>
+                </a>
+              </div>
+              <div class="characterImg">
+                <a href="javascript:void(0)" class="characterImg_btn">
+                  <img class="characterImg_img" src="./images/main/main_character_img2.png" alt="럭키" />
+                  <p class="characterImg_name">럭키</p>
+                </a>
+              </div>
+              <div class="characterImg">
+                <a href="javascript:void(0)" class="characterImg_btn">
+                  <img class="characterImg_img" src="./images/main/main_character_img3.png" alt="진수" />
+                  <p class="characterImg_name">진수</p>
+                </a>
+              </div>
+              <div class="characterImg">
+                <a href="javascript:void(0)" class="characterImg_btn">
+                  <img class="characterImg_img" src="./images/main/main_character_img4.png" alt="천둥" />
+                  <p class="characterImg_name">천둥</p>
+                </a>
+              </div>
+              <div class="characterImg">
+                <a href="javascript:void(0)" class="characterImg_btn">
+                  <img class="characterImg_img" src="./images/main/main_character_img5.png" alt="땡전" />
+                  <p class="characterImg_name">땡전</p>
+                </a>
+              </div>
+              <div class="characterImg">
+                <a href="javascript:void(0)" class="characterImg_btn">
+                  <img class="characterImg_img" src="./images/main/main_character_img6.png" alt="이종이" />
+                  <p class="characterImg_name">이종이</p>
+                </a>
+              </div>
+              <div class="characterImg">
+                <a href="javascript:void(0)" class="characterImg_btn">
+                  <img class="characterImg_img" src="./images/main/main_character_img7.png" alt="타이거D" />
+                  <p class="characterImg_name">타이거D</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="character_box_info pc">
+            <div class="characterInfo jeombo">
+              <div class="characterInfo_img">
+                <img class="img" src="./images/main/main_character_img8.gif" alt="점보" />
+              </div>
+              <div class="characterInfo_textBox">
+                <div class="box">
+                  <img class="img" src="./images/main/box02.png" alt="점보 프로필 이미지" />
+                  <h3 class="title">점보</h3>
+                  <p class="text">
+                    전 청소년 국가대표 야구선수 출신.<br />
+                    별로 말이 없고, 대부분의 말이 자신의 이름인<br />
+                    점보~ 라고 한다.<br />
+                    야구공을 활용한 다양한 원거리 공격이 가능하다.
+                  </p>
+                  <div class="graph"><img src="./images/main/graph_1.png" alt="점보 그래프" /></div>
+                </div>
+              </div>
+              <p class="btnReturn-wrap">
+                <a href="javascript:void(0)" class="btnReturn"> 캐릭터 리스트로 가기 </a>
+              </p>
+            </div>
+            <div class="characterInfo lucky">
+              <div class="characterInfo_img">
+                <img class="img" src="./images/main/main_character_img9.gif" alt="럭키" />
+              </div>
+              <div class="characterInfo_textBox">
+                <div class="box">
+                  <img class="img" src="./images/main/box03.png" alt="럭키 프로필 이미지" />
+                  <h3 class="title">럭키</h3>
+                  <p class="text">
+                    전 청소년국가대표 복싱선수.<br />
+                    180승 0패 180KO.<br />
+                    1ROUND 승부사.
+                  </p>
+                  <div class="graph"><img src="./images/main/graph_2.png" alt="럭키 그래프" /></div>
+                </div>
+              </div>
+              <p class="btnReturn-wrap">
+                <a href="javascript:void(0)" class="btnReturn"> 캐릭터 리스트로 가기 </a>
+              </p>
+            </div>
+            <div class="characterInfo jinsu">
+              <div class="characterInfo_img">
+                <img class="img" src="./images/main/main_character_img10.gif" alt="진수" />
+              </div>
+              <div class="characterInfo_textBox">
+                <div class="box">
+                  <img class="img" src="./images/main/box04.png" alt="진수 프로필 이미지" />
+                  <h3 class="title">진수</h3>
+                  <p class="text">
+                    대전 D산 고등학교 출신의 전국 판치기 왕.<br />
+                    본인 대신 죽은 친구 영민의 복수를 위해<br />
+                    도박장에 나타나는 인물.<br />
+                    긴 담배를 피고 있다.
+                  </p>
+                  <div class="graph"><img src="./images/main/graph_3.png" alt="진수 그래프" /></div>
+                </div>
+              </div>
+              <p class="btnReturn-wrap">
+                <a href="javascript:void(0)" class="btnReturn"> 캐릭터 리스트로 가기 </a>
+              </p>
+            </div>
+            <div class="characterInfo cheondung">
+              <div class="characterInfo_img">
+                <img class="img" src="./images/main/main_character_img11.gif" alt="천둥" />
+              </div>
+              <div class="characterInfo_textBox">
+                <div class="box">
+                  <img class="img" src="./images/main/box01.png" alt="천둥 프로필 이미지" />
+                  <h3 class="title">천둥</h3>
+                  <p class="text">
+                    전 청소년 국가대표 야구선수 출신.<br />
+                    돈이면 무슨 일이든 하는 성격의 소유자.<br />
+                    생각이 없어 보이지만, 지하도시 비돌을 건설하는<br />
+                    것을 목적으로 하는 것 같다.<br />
+                    야구방망이를 활용한 다양한 타격 기술을 가지고 있다.
+                  </p>
+                  <div class="graph"><img src="./images/main/graph_4.png" alt="천둥 그래프" /></div>
+                </div>
+              </div>
+              <p class="btnReturn-wrap">
+                <a href="javascript:void(0)" class="btnReturn"> 캐릭터 리스트로 가기 </a>
+              </p>
+            </div>
+            <div class="characterInfo ttaengjeon">
+              <div class="characterInfo_img">
+                <img class="img" src="./images/main/main_character_img12.gif" alt="땡전" />
+              </div>
+              <div class="characterInfo_textBox">
+                <div class="box">
+                  <img class="img" src="./images/main/box06.png" alt="땡전 프로필 이미지" />
+                  <h3 class="title">땡전</h3>
+                  <p class="text">
+                    신도림 총리의 오른팔.<br />
+                    자신보다 강한 사람과 싸워 이기는 것을 좋아하는 전투광.
+                  </p>
+                  <div class="graph"><img src="./images/main/graph_5.png" alt="땡전 그래프" /></div>
+                </div>
+              </div>
+              <p class="btnReturn-wrap">
+                <a href="javascript:void(0)" class="btnReturn"> 캐릭터 리스트로 가기 </a>
+              </p>
+            </div>
+            <div class="characterInfo leejongi">
+              <div class="characterInfo_img">
+                <img class="img" src="./images/main/main_character_img13.gif" alt="이종이" />
+              </div>
+              <div class="characterInfo_textBox">
+                <div class="box">
+                  <img class="img" src="./images/main/box07.png" alt="이종이 프로필 이미지" />
+                  <h3 class="title">이종이</h3>
+                  <p class="text">
+                    신도림의 국방부 장관.<br />
+                    이름처럼 종이로 뭐든지 베어버리는 능력자로<br />
+                    일명 백지로 불린다.
+                  </p>
+                  <div class="graph"><img src="./images/main/graph_6.png" alt="이종이 그래프" /></div>
+                </div>
+              </div>
+              <p class="btnReturn-wrap">
+                <a href="javascript:void(0)" class="btnReturn"> 캐릭터 리스트로 가기 </a>
+              </p>
+            </div>
+            <div class="characterInfo tigerd">
+              <div class="characterInfo_img">
+                <img class="img" src="./images/main/main_character_img14.gif" alt="타이거D" />
+              </div>
+              <div class="characterInfo_textBox">
+                <div class="box">
+                  <img class="img" src="./images/main/box05.png" alt="타이거D 프로필 이미지" />
+                  <h3 class="title">타이거D</h3>
+                  <p class="text">
+                    <!-- 카페 &#91;시원해지고싶다&#93;에서 수정과를 만들고 있다.<br /> -->
+                    오른손에는 식도,<br />
+                    왼손에는 라디오를 들고 나타나는 암살자.<br />
+                    신도림 세력 오룡에게 적대감을 나타내고 있다.
+                  </p>
+                  <div class="graph"><img src="./images/main/graph_7.png" alt="타이거D 그래프" /></div>
+                </div>
+              </div>
+              <p class="btnReturn-wrap">
+                <a href="javascript:void(0)" class="btnReturn"> 캐릭터 리스트로 가기 </a>
+              </p>
+            </div>
+          </div>
+          <div class="character_box_info mo">
+            <div class="characterInfo jeombo">
+              <div class="characterInfo_textBox">
+                <div class="box">
+                  <div class="box_info">
+                    <h3 class="title">점보</h3>
+                    <p class="text">
+                      전 청소년 국가대표 야구선수 출신. 별로 말이 없고, 대부분의 말이 자신의 이름인 점보~ 라고 한다. 야구공을 활용한 다양한 원거리 공격이 가능하다.
+                    </p>
+                  </div>
+                  <div class="box_graph">
+                    <img class="img-graph" src="./images/main/graph_1.png" alt="점보 그래프" />
+                  </div>
+                  <p class="btnReturn-wrap">
+                    <a href="javascript:void(0)" class="btnReturn"> 캐릭터 리스트로 가기 </a>
+                  </p>
+                </div>
+              </div>
+              <div class="characterInfo_img">
+                <img class="img" src="./images/main/main_character_img8.gif" alt="점보" />
+              </div>
+            </div>
+            <div class="characterInfo lucky">
+              <div class="characterInfo_img">
+                <img class="img" src="./images/main/main_character_img9.gif" alt="럭키" />
+              </div>
+              <div class="characterInfo_textBox">
+                <div class="box">
+                  <div class="box_info">
+                    <h3 class="title">럭키</h3>
+                    <p class="text">
+                      전 청소년국가대표 복싱선수.<br />
+                      180승 0패 180KO.<br />
+                      1ROUND 승부사.
+                    </p>
+                  </div>
+                  <div class="box_graph">
+                    <img class="img-graph" src="./images/main/graph_2.png" alt="점보 그래프" />
+                  </div>
+                  <p class="btnReturn-wrap">
+                    <a href="javascript:void(0)" class="btnReturn"> 캐릭터 리스트로 가기 </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="characterInfo jinsu">
+              <div class="characterInfo_textBox">
+                <div class="box">
+                  <div class="box_info">
+                    <h3 class="title">진수</h3>
+                    <p class="text">대전 D산 고등학교 출신의 전국 판치기 왕. 본인 대신 죽은 친구 영민의 복수를 위해 도박장에 나타는 인물. 긴 담배를 피고 있다.</p>
+                  </div>
+                  <div class="box_graph">
+                    <img class="img-graph" src="./images/main/graph_3.png" alt="진수 그래프" />
+                  </div>
+                  <p class="btnReturn-wrap">
+                    <a href="javascript:void(0)" class="btnReturn"> 캐릭터 리스트로 가기 </a>
+                  </p>
+                </div>
+              </div>
+              <div class="characterInfo_img">
+                <img class="img" src="./images/main/main_character_img10.gif" alt="진수" />
+              </div>
+            </div>
+            <div class="characterInfo cheondung">
+              <div class="characterInfo_img">
+                <img class="img" src="./images/main/main_character_img11.gif" alt="천둥" />
+              </div>
+              <div class="characterInfo_textBox">
+                <div class="box">
+                  <div class="box_info">
+                    <h3 class="title">천둥</h3>
+                    <p class="text">
+                      전 청소년 국가대표 야구선수 출신. 돈이면 무슨 일이든 하는 성격의 소유자. 생각이 없어 보이지만, 지하도시 비돌을 건설하는 것을 목적으로 하는 것 같다.
+                      야구방망이를 활용한 다양한 타격 기술을 가지고 있다.
+                    </p>
+                  </div>
+                  <div class="box_graph">
+                    <img class="img-graph" src="./images/main/graph_4.png" alt="천둥-그래프" />
+                  </div>
+                  <p class="btnReturn-wrap">
+                    <a href="javascript:void(0)" class="btnReturn"> 캐릭터 리스트로 가기 </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="characterInfo ttaengjeon">
+              <div class="characterInfo_textBox">
+                <div class="box">
+                  <div class="box_info">
+                    <h3 class="title">땡전</h3>
+                    <p class="text">
+                      신도림 총리의 오른팔.<br />
+                      자신보다 강한 사람과 싸워 이기는 것을 좋아하는 전투광.
+                    </p>
+                  </div>
+                  <div class="box_graph">
+                    <img class="img-graph" src="./images/main/graph_5.png" alt="땡전-그래프" />
+                  </div>
+                  <p class="btnReturn-wrap">
+                    <a href="javascript:void(0)" class="btnReturn"> 캐릭터 리스트로 가기 </a>
+                  </p>
+                </div>
+              </div>
+              <div class="characterInfo_img">
+                <img class="img" src="./images/main/main_character_img12.gif" alt="땡전" />
+              </div>
+            </div>
+            <div class="characterInfo leejongi">
+              <div class="characterInfo_img">
+                <img class="img" src="./images/main/main_character_img13.gif" alt="이종이" />
+              </div>
+              <div class="characterInfo_textBox">
+                <div class="box">
+                  <div class="box_info">
+                    <h3 class="title">이종이</h3>
+                    <p class="text">신도림의 국방부 장관. 이름처럼 종이로 뭐든지 베어버리는 능력자로 일명 백지로 불린다.</p>
+                  </div>
+                  <div class="box_graph">
+                    <img class="img-graph" src="./images/main/graph_6.png" alt="이종이-그래프" />
+                  </div>
+                  <p class="btnReturn-wrap">
+                    <a href="javascript:void(0)" class="btnReturn"> 캐릭터 리스트로 가기 </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="characterInfo tigerd">
+              <div class="characterInfo_textBox">
+                <div class="box">
+                  <div class="box_info">
+                    <h3 class="title">타이거D</h3>
+                    <p class="text">오른손에는 식도, 왼손에는 라디오를 들고 나타나는 암살자. 신도림 세력 오룡에게 적대감을 나타내고 있다.</p>
+                  </div>
+                  <div class="box_graph">
+                    <img class="img-graph" src="./images/main/graph_7.png" alt="타이거D-그래프" />
+                  </div>
+                  <p class="btnReturn-wrap">
+                    <a href="javascript:void(0)" class="btnReturn"> 캐릭터 리스트로 가기 </a>
+                  </p>
+                </div>
+              </div>
+              <div class="characterInfo_img">
+                <img class="img" src="./images/main/main_character_img14.gif" alt="타이거D" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scroll">
+          <a class="scroll_link myLink" href="#media">
+            <span class="sr-only">다음페이지로 가기</span>
+          </a>
+        </div>
+      </section>
+      <section id="media" class="section media" data-anchor="media">
+        <div class="media_box">
+          <img class="media_box_title" src="./images/main/main_media_title.png" alt="지옥세계를 소개하지." />
+          <div class="media_box_content">
+            <div class="content">
+              <img class="content_img" src="./images/main/main_media_img2.png" alt="신도림 피도 안마른녀석들 width NAVER WEBTOON" />
+              <a href="javascript:void(0)" class="content_btn" type="button">
+                <p class="sr-only">미디어 영상 재생</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="scroll">
+          <a class="scroll_link myLink" href="#community">
+            <span class="sr-only">다음페이지로 가기</span>
+          </a>
+        </div>
+      </section>
+      <section id="community" class="section community" data-anchor="community">
+        <div class="community_box">
+          <img class="community_box_title" src="./images/main/main_community_title.png" alt="공식카페 입구" />
+          <div class="community_box_content">
+            <div class="content">
+              <img class="content_char" src="./images/main/main_community_img1.png" alt="캐릭터 이미지" />
+              <div class="content_info pc">
+                <p class="text">
+                  <span id="type4" class="type4"></span><br />
+                  <span id="type5" class="text5"></span><br />
+                  <span id="type6" class="text6"></span><br />
+                  <span id="type7" class="text7"></span>
+                </p>
+              </div>
+              <div class="content_info mo">
+                <p class="text">
+                  <span class="type4">공식커뮤니티에 모든 정보가 있습니다.</span><br />
+                  <span class="text5">공식카페에서 저와 함께 이야기</span><br />
+                  <span class="text6">나누시는 건 어떤가요?</span><br />
+                  <span class="text7">안내해 드릴까요?</span>
+                </p>
+              </div>
+              <div class="content_btn">
+                <a class="link myLink" href="https://cafe.naver.com/sindorimgames">공식카페 바로가기</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scroll top">
+          <a class="scroll_link myLink" href="#main">
+            <span class="sr-only">다음페이지로 가기</span>
+          </a>
+        </div>
+      </section>
+      <!-- <section id="char" class="section char" data-anchor="char">
+        <div class="charWrap pc" id="charAni">
+          <div class="charImg">
+            <a href="javascript:void(0)" class="charImg_btn">
+              <img
+                src="./images/main/main_character_img8_off.png"
+                alt="점보"
+                class="img01 overImg"
+                onmouseover="this.src='./images/main/main_character_img8.png'"
+                onmouseleave="this.src='./images/main/main_character_img8_off.png'"
+              />
+             </a>
+          </div>
+          <div class="charImg">
+            <a href="javascript:void(0)" class="charImg_btn">
+              <img
+                src="./images/main/main_character_img06_off.png"
+                alt="진수"
+                class="img02 overImg"
+                onmouseover="this.src='./images/main/main_main_character6.png'"
+                onmouseleave="this.src='./images/main/main_character_img06_off.png'"
+              />
+             </a>
+          </div>
+          <div class="charImg">
+            <a href="javascript:void(0)" class="charImg_btn">
+              <img src="./images/main/main_main_character1.png" alt="천둥" class="img03 overImg" />
+             </a>
+          </div>
+          <div class="charImg">
+            <a href="javascript:void(0)" class="charImg_btn">
+              <img
+                src="./images/main/main_character_img13_off.png"
+                alt="이종이"
+                class="img04 overImg"
+                onmouseover="this.src='./images/main/main_character2.png'"
+                onmouseleave="this.src='./images/main/main_character_img13_off.png'"
+              />
+             </a>
+          </div>
+          <div class="charImg">
+            <a href="javascript:void(0)" class="charImg_btn">
+              <img
+                src="./images/main/main_main_character4_off.png"
+                alt="땡전"
+                class="img05 overImg"
+                onmouseover="this.src='./images/main/main_main_character4.png'"
+                onmouseleave="this.src='./images/main/main_main_character4_off.png'"
+              />
+             </a>
+          </div>
+          <div class="charImg">
+            <a href="javascript:void(0)" class="charImg_btn">
+              <img
+                src="./images/main/main_main_character5_off.png"
+                alt="타이거D"
+                class="img06 overImg"
+                onmouseover="this.src='./images/main/main_main_character5.png'"
+                onmouseleave="this.src='./images/main/main_main_character5_off.png'"
+              />
+             </a>
+          </div>
+          <div class="charImg">
+            <a href="javascript:void(0)" class="charImg_btn">
+              <img
+                src="./images/main/main_character_img9_off.png"
+                alt="럭키"
+                class="img07 overImg"
+                onmouseover="this.src='./images/main/main_main_character3.png'"
+                onmouseleave="this.src='./images/main/main_character_img9_off.png'"
+              />
+             </a>
+          </div>
+        </div>
+        <div class="charWrap mo">
+          <div class="charImg">
+            <a href="javascript:void(0)" class="charImg_btn">
+              <img
+                src="./images/main/main_character_img8_off.png"
+                alt="점보"
+                class="img01 overImg"
+                onmouseover="this.src='./images/main/main_character_img8.png'"
+                onmouseleave="this.src='./images/main/main_character_img8_off.png'"
+              />
+            </a>
+          </div>
+          <div class="charImg">
+            <a href="javascript:void(0)" class="charImg_btn">
+              <img
+                src="./images/main/main_character_img06_off.png"
+                alt="진수"
+                class="img02 overImg"
+                onmouseover="this.src='./images/main/main_main_character6.png'"
+                onmouseleave="this.src='./images/main/main_character_img06_off.png'"
+              />
+            </a>
+          </div>
+          <div class="charImg">
+            <a href="javascript:void(0)" class="charImg_btn">
+              <img src="./images/main/main_main_character1.png" alt="천둥" class="img03 overImg" />
+            </a>
+          </div>
+          <div class="charImg">
+            <a href="javascript:void(0)" class="charImg_btn">
+              <img
+                src="./images/main/main_character_img13.png"
+                alt="이종이"
+                class="img04 overImg"
+                onmouseover="this.src='./images/main/main_character_img13.png'"
+                onmouseleave="this.src='./images/main/main_character_img13.png'"
+              />
+            </a>
+          </div>
+          <div class="charImg">
+            <a href="javascript:void(0)" class="charImg_btn">
+              <img
+                src="./images/main/main_main_character4_off.png"
+                alt="땡전"
+                class="img05 overImg"
+                onmouseover="this.src='./images/main/main_main_character4.png'"
+                onmouseleave="this.src='./images/main/main_main_character4_off.png'"
+              />
+            </a>
+          </div>
+          <div class="charImg">
+            <a href="javascript:void(0)" class="charImg_btn">
+              <img
+                src="./images/main/main_main_character5_off.png"
+                alt="타이거D"
+                class="img06 overImg"
+                onmouseover="this.src='./images/main/main_main_character5.png'"
+                onmouseleave="this.src='./images/main/main_main_character5_off.png'"
+              />
+            </a>
+          </div>
+          <div class="charImg">
+            <a href="javascript:void(0)" class="charImg_btn">
+              <img
+                src="./images/main/main_character_img9.png"
+                alt="럭키"
+                class="img07 overImg"
+                onmouseover="this.src='./images/main/main_character_img9.png'"
+                onmouseleave="this.src='./images/main/main_character_img9.png'"
+              />
+            </a>
+          </div>
+        <div class="scroll">
+          <a class="scroll_link myLink" href="#char">
+            <span class="sr-only">다음페이지로 가기</span>
+          </a>
+        </div>
+      </section> -->
+    </div>
+  </body>
+</html>
